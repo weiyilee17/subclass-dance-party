@@ -40,7 +40,7 @@ $(document).ready(function() {
       
    });
    
-   $('.coolDancer').mouseover(function(event){
+   $('.coolDancer').on('mouseover',function(event){
       alert(this);
    });
    
